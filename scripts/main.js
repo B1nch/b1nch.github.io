@@ -1,3 +1,5 @@
+/*
+
 let myImage = document.querySelector('img');
 
 myImage.addEventListener('click', function() {
@@ -28,3 +30,4 @@ function setUserName() {
   myButton.addEventListener('click', function() {
     setUserName();
   });
+

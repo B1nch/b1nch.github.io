@@ -4,13 +4,24 @@ html {
     background-color: #ffffff;
  }
 
- body {
+body {
     width: 1256px;
     margin: 0 auto;
     background-color: #e8ffe5;
     padding: 0 20px 200px 20px;
     border: 2px solid rgb(255, 255, 255);
   }
+
+header.site-title {
+    color: #007fff;
+    font-size: 40px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+ul.menu li {
+    display: inline;
+}
 
 h1 {
     color: #007fff;
@@ -34,4 +45,14 @@ p,li {
 img {
     display: block;
     margin: 0 auto;
+}
+
+/* marche pas bien pourquoi le > ? à voir
+
+aside > p,aside > ul {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: right;
+    color: brown;
 }
